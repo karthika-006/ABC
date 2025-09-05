@@ -9,13 +9,13 @@ class SummaryCard extends StatelessWidget {
   final Color iconColor;
 
   const SummaryCard({
-    Key? key,
+    super.key,
     required this.icon,
     required this.title,
     required this.child,
     this.cardColor = Colors.white,
     this.iconColor = Colors.black54,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
