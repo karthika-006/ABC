@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import '../widgets/info_header.dart';
 import '../widgets/summary_card.dart';
-import '../widgets/action_buttons.dart';
+// Note: The 'action_buttons.dart' import is now removed.
 
 class DashboardScreen extends StatelessWidget {
   const DashboardScreen({super.key});
@@ -95,10 +95,7 @@ class DashboardScreen extends StatelessWidget {
                   ),
                 ),
               ),
-              const SizedBox(height: 24),
-
-              // Action Buttons at the bottom
-              const ActionButtons(),
+              // THE ACTION BUTTONS AND SIZED BOX ABOVE IT HAVE BEEN REMOVED
             ],
           ),
         ),
